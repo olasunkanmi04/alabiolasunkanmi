@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Sofia-Pro-ExtraLight.otf") format('otf');
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Sofia-Pro-Light.otf") format('otf');
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Sofia-Pro-Regular.otf") format('otf');
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Sofia-Pro-Medium.otf") format('otf');
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 500;
+    src: local(".SFNSText-Medium"), local(".HelveticaNeueDeskInterface-MediumP4"), local(".LucidaGrandeUI"), local("Segoe UI Semibold"), local("Ubuntu Medium"), local("Roboto-Medium"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    src: local(".SFNSText-Bold"), local(".HelveticaNeueDeskInterface-Bold"), local(".LucidaGrandeUI"), local("Segoe UI Bold"), local("Ubuntu Bold"), local("Roboto-Bold"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+body {
+    margin: 0;
+    font-family: 'Sofia Pro', system-ui;
+}
+
+/* Navbar header */
+.navbar {
+    height: 101px;
+    background-color: #11151C;
+    padding: 0 70px;
+}
+
+.nav-link {
+    margin: 0 35px;
+    color: #F2F4F3;
+}
+
+.nav-link:hover {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.navbar-burger {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F2F4F3;
+}
+
+.navbar-burger:hover {
+    color: #F2F4F3;
+}
+
+.navbar-end {
+    background-color: #11151C;
+}
+
+.lets-talk {
+    background-color: #FFFFFF;
+    color: #11151C;
+    margin: 0;
+    padding: 0 35px;
+}
+
+.lets-talk:hover {
+    color: #11151C !important;
+    background-color: #FFFFFF !important;
+}
+
+/* hero section */
+.hero {
+    background-color: #11151C;
+    padding: 0 70px;
+}
+
+@media screen and (max-width:1087px) {
+    .nav-link {
+        margin: 0 70px;
+    }
+
+    .navbar-menu {
+        background-color: #11151C;
+        margin: 0 !important;
+    }
+
+    .navbar-end {
+        margin-top: -10px !important;
+        margin: 0 -70px;
+    }
+
+    .lets-talk {
+        background-color: transparent;
+        color: #9DD1F1;
+        margin: 0 70px;
+        padding: .5rem .75rem;
+    }
+
+    .lets-talk:hover {
+        color: #9DD1F1 !important;
+        background-color: transparent !important;
+    }
+}
