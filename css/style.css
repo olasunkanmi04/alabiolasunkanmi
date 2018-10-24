@@ -52,6 +52,10 @@ body {
     font-family: 'Sofia Pro', system-ui;
 }
 
+html {
+    background-color: #11151C;
+}
+
 /* Navbar header */
 .navbar {
     height: 101px;
@@ -100,10 +104,196 @@ body {
 }
 
 /* hero section */
-.hero {
+.section {
     background-color: #11151C;
     padding: 0 70px;
 }
+
+.hero {
+    padding-top: 149px;
+    padding-bottom: 149px;
+}
+
+.work {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-welcome {
+    color: #F2F4F3;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.hero-name {
+    font-size: 80px;
+    color: #F2F4F3;
+    margin-bottom: 15px;
+}
+
+.hero-sub {
+    font-size: 16px;
+    color: #9DD1F1;
+    font-weight: 400;
+}
+
+.hero-elevator {
+    color: #F2F4F3;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+}
+
+/* work section */
+.section-heading {
+    color: #F2F4F3;
+    font-size: 32px;
+    margin: 20px 0 60px 0;
+}
+
+.work-heading {
+    color: #9DD1F1;
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.work-heading:hover {
+    color: #6b91a8;
+}
+
+.work-sub {
+    color: #16E0BD;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 17px;
+}
+
+.work-summary {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #F2F4F3;
+}
+
+.hero-elevator-wrapper {
+    align-self: center;
+}
+
+.work-wrapper {
+    margin-bottom: 130px !important;
+}
+
+
+/* skills section */
+.skills-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    stroke-width: 0;
+    stroke: #9DD1F1;
+    fill: #9DD1F1;
+    vertical-align: middle;
+}
+
+.skills-heading {
+    color: #9DD1F1;
+    font-size: 24px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.skills-icon-wrapper {
+    align-self: center;
+}
+
+.skills {
+    color: #F2F4F3;
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 200;
+}
+
+.skills-section {
+    margin-bottom: 120px;
+}
+
+/* footer section */
+footer {
+    padding: 74px 70px;
+    background-color: #F3EFF5;
+}
+
+.footer-heading {
+    color: #11151C !important;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-size: 24px;
+    color: #11151C;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+.footer-email {
+    color: #11151C;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.footer-email:hover {
+    color: #2d333d;
+}
+
+.footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.icon {
+    fill: #11151C;
+    margin-right: 50px;
+}
+
+.icon:hover {
+    fill: #6b91a8;
+}
+
+
+@media screen and (max-width:768px) {
+    .work-image-wrapper {
+        text-align: center;
+    }
+
+    .mediax-img {
+        order: 1 !important;
+    }
+
+    .mediax-details {
+        order: 2 !important;
+    }
+}
+
+@media screen and (max-width:632px) {
+    .hero-name {
+        font-size: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1087px) {
     .nav-link {
@@ -130,5 +320,55 @@ body {
     .lets-talk:hover {
         color: #9DD1F1 !important;
         background-color: transparent !important;
+    }
+}
+
+@media screen and (max-width:584px) {
+    .navbar {
+        padding: 0 30px;
+    }
+
+    .section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer {
+        padding: 74px 30px;
+    }
+}
+
+@media screen and (max-width:432px) {
+    .hero-name {
+        font-size: 50px;
+    }
+
+    .hero-elevator,
+    .footer-email {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .hero-name {
+        font-size: 30px;
+    }
+
+    .hero-elevator,
+    .footer-email {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-sub {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .work-img-right {
+        float: right;
     }
 }
