@@ -185,6 +185,10 @@ html {
     margin-bottom: 130px !important;
 }
 
+.column {
+    z-index: 1;
+}
+
 
 /* skills section */
 .skills-icon {
@@ -263,13 +267,60 @@ footer {
     fill: #6b91a8;
 }
 
-/* lines
+/* lines */
 .first-line {
     width: 1px;
-    height: 100px;
+    height: 3033px;
     position: absolute;
-    left: 70px;
+
+
+    background-color: rgba(242, 244, 243, 0.05);
+}
+
+/* .line-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 10%;
+    position: absolute;
+    top: 0px;
 } */
+
+.line-one {
+    left: 70px;
+    top: 254px;
+}
+
+.line-two {
+    left: 19.2%;
+    top: 200px;
+}
+
+.line-three {
+    left: 33.2%;
+    top: 160px;
+}
+
+.line-four {
+    left: 47.2%;
+    top: 160px;
+}
+
+.line-five {
+    left: 61.2%;
+    top: 160px;
+}
+
+.line-six {
+    left: 75.2%;
+    top: 160px;
+}
+
+.line-seven {
+    right: 70px;
+    top: 160px;
+}
+
+
 
 
 @media screen and (max-width:768px) {
