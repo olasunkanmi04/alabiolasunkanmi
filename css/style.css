@@ -263,6 +263,14 @@ footer {
     fill: #6b91a8;
 }
 
+/* lines */
+.first-line {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    left: 70px;
+}
+
 
 @media screen and (max-width:768px) {
     .work-image-wrapper {
@@ -283,17 +291,6 @@ footer {
         font-size: 60px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:1087px) {
     .nav-link {
