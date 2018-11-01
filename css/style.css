@@ -60,7 +60,7 @@ html {
 .navbar {
     height: 101px;
     background-color: #11151C;
-    padding: 0 70px;
+    padding: 0 100px;
 }
 
 .nav-link {
@@ -91,6 +91,16 @@ html {
     background-color: #11151C;
 }
 
+.navbar-logo{
+    width:70px;
+}
+
+.navbar-logo-img{
+    width: 100%;
+    height: auto !important;
+    max-height: 100% !important;
+}
+
 .lets-talk {
     background-color: #FFFFFF;
     color: #11151C;
@@ -106,7 +116,7 @@ html {
 /* hero section */
 .section {
     background-color: #11151C;
-    padding: 0 70px;
+    padding: 0 100px;
 }
 
 .hero {
@@ -226,7 +236,7 @@ html {
 
 /* footer section */
 footer {
-    padding: 74px 70px;
+    padding: 74px 100px;
     background-color: #F3EFF5;
 }
 
