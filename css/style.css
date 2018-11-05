@@ -256,10 +256,16 @@ footer {
     color: #11151C;
     font-size: 24px;
     margin-bottom: 35px;
+    vertical-align: middle;
 }
 
 .footer-email:hover {
-    color: #2d333d;
+    color: #6b91a8;
+}
+
+.icon-email-icon{
+    vertical-align: middle;
+    margin: 0 !important;
 }
 
 .footer-icons {
